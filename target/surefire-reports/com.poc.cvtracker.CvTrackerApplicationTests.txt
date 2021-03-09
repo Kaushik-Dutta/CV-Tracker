@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.poc.cvtracker.CvTrackerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.883 s <<< FAILURE! - in com.poc.cvtracker.CvTrackerApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cvDataService': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Mapping for Province/State not found, expected one of [{]
+Caused by: java.lang.IllegalArgumentException: Mapping for Province/State not found, expected one of [{]
+

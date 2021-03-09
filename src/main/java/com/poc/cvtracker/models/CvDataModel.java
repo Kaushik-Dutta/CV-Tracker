@@ -1,5 +1,5 @@
-package com.poc.cvtracker.models;
-
-public class CvDataModel {
-
-}
+//package com.poc.cvtracker.models;
+//
+//public class CvDataModel {
+//
+//}
