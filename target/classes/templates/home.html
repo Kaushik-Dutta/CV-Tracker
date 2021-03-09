@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+    <title><h1>Corona Virus Application<h1></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+
+  <body>
+  
+    <table>
+      <tr>
+        <th>STATE</th>
+        <th>COUNTRY</th>
+        <th>TOTAL CASES</th>
+      </tr>
+      <tr th:each="dataModelVal : ${dataModelValue}">
+        <td th:text="${dataModelVal.state}">Onions</td>
+        <td th:text="${dataModelVal.country}"></td>
+        <td th:text="${dataModelVal.latestTotalCases}">0</td>
+      </tr>
+    </table>
+  
+  </body>
+
+</html>
