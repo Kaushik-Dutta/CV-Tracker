@@ -6,6 +6,6 @@ github repository for the data : https://github.com/CSSEGISandData/COVID-19
 
 The data when rendered into the application it came out to be in CSV format.
 
-This was a good task to take the information frame it and use it. We have use Thymeleaf as a template engine to serve our purpose which acted as aview component for our project. 
+This was a good task to take the information frame it and use it. I have used Thymeleaf as a template engine to serve our purpose which acted as a view component for this project. 
 
 Check out the code: JDK 11 is essential for this project to run. 
